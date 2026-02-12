@@ -14,8 +14,8 @@ packer {
 source "amazon-ebs" "my-custom-ubuntu" {
   ami_name      = "my-custom-nginx"
   instance_type = "t3.micro"
-  region        = "ap-south-1"
-  source_ami    = "ami-00111452cb3c5dda0"
+  region        = "us-east-1"
+  source_ami    = "ami-0b6c6ebed2801a5cb"
   ssh_username  = "ubuntu"
 }
 
