@@ -46,7 +46,7 @@ build {
   provisioner "shell" {
     inline = [
       "echo copying files",
-      "sudo cp /tmp/index.html /var/www/html/"
+      "sudo cp /tmp/index.html /var/www/html/",
     ]
   }
 }
