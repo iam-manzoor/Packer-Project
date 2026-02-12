@@ -15,7 +15,7 @@ source "amazon-ebs" "my-custom-ubuntu" {
   ami_name      = "my-custom-nginx"
   instance_type = "t3.micro"
   region        = "ap-south-1"
-  source_ami    = "ami-006f8e854f78a2869"
+  source_ami    = "ami-0022eedb0b6fabc26"
   ssh_username  = "ubuntu"
 }
 
